@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemoryMappedFilesTest", "test\MemoryMappedFilesTest\MemoryMappedFilesTest.vcxproj", "{E5899B4C-74A2-45FE-99DA-E626CB35D39B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemoryMappedFiles", "src\MemoryMappedFiles\MemoryMappedFiles.vcxitems", "{FEB9959F-1B2B-4F94-A79A-E18D33B51FBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EBA0C438-08DC-44DB-A264-1EB97275DDF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1D72F560-379F-4996-BDB6-5D637D206977}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5899B4C-74A2-45FE-99DA-E626CB35D39B}.Debug|x64.ActiveCfg = Debug|x64
+		{E5899B4C-74A2-45FE-99DA-E626CB35D39B}.Debug|x64.Build.0 = Debug|x64
+		{E5899B4C-74A2-45FE-99DA-E626CB35D39B}.Debug|x86.ActiveCfg = Debug|Win32
+		{E5899B4C-74A2-45FE-99DA-E626CB35D39B}.Debug|x86.Build.0 = Debug|Win32
+		{E5899B4C-74A2-45FE-99DA-E626CB35D39B}.Release|x64.ActiveCfg = Release|x64
+		{E5899B4C-74A2-45FE-99DA-E626CB35D39B}.Release|x64.Build.0 = Release|x64
+		{E5899B4C-74A2-45FE-99DA-E626CB35D39B}.Release|x86.ActiveCfg = Release|Win32
+		{E5899B4C-74A2-45FE-99DA-E626CB35D39B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E5899B4C-74A2-45FE-99DA-E626CB35D39B} = {1D72F560-379F-4996-BDB6-5D637D206977}
+		{FEB9959F-1B2B-4F94-A79A-E18D33B51FBC} = {EBA0C438-08DC-44DB-A264-1EB97275DDF2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8BDA2AB-E326-48E6-8E24-8A66A7DBFEED}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\MemoryMappedFiles\MemoryMappedFiles.vcxitems*{e5899b4c-74a2-45fe-99da-e626cb35d39b}*SharedItemsImports = 4
+		src\MemoryMappedFiles\MemoryMappedFiles.vcxitems*{feb9959f-1b2b-4f94-a79a-e18d33b51fbc}*SharedItemsImports = 9
+	EndGlobalSection
+EndGlobal
