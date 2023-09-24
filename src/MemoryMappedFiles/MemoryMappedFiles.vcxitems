@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{feb9959f-1b2b-4f94-a79a-e18d33b51fbc}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)MemoryMappedFile.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MemoryMappedFileException.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MemoryMappedFiles.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MemoryMappedFileViewer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)MemoryMappedFile.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)MemoryMappedFileException.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)MemoryMappedFileViewer.cpp" />
+  </ItemGroup>
+</Project>
